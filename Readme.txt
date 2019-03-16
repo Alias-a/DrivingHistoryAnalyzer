@@ -48,8 +48,7 @@ Architecture/Class Specific Responsibilities:
 	to be more flexible and maintanable in general than structs. There are multiple justifications for this opinion, but
 	one for the sake of argument is that Classes generally have a understood layout across programs with specific methods
 	that are commonly overidden to serve a specific pupose i.e. == or to_s.
-		I created the AcceptedCommands module to roughly serve the same purpose as an enum; to keep the command constants
-	in a separate location where they can be maintained more easily while also preserving the readability of the code due
+		I created the AcceptedCommands module to roughly serve the same purpose as an enum; to keep the command constants in a separate location where they can be maintained more easily while also preserving the readability of the code due
 	to their specific naming conventions.
 		The Parser module was really where I housed most of the logic to actually separate the input data into the
 	above mentioned Objects. I left this as a module because really there was no need for it to be instantiated and because
