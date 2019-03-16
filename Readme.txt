@@ -23,14 +23,6 @@ following things:
 You may still have questions after these explanations. If you would like to ask them I would encourage doing so in a follow up
 interview.
 
-Language Choice:
-	I want you as a reader to know that it has been over 3 years since I have written any ruby code. There are two main reasons
-	that I chose to use ruby in the implementation of this program:
-		1) To refamliarize myself with one of my favorite programming languages as well as the language you use at
-		    Root insurance.
-		2) To prove my ability to quickly adapt to new environments and master new tools or languages, or in this case,
-		   refamiliarize myself with them.
-
 Hierarchial Structure:
 		I chose the hierarchial structure of a gem, because I believe that this code functions much like a gem does. 
 	A small piece of software that solves a very specific task. Thus I have a lib/ directory which holds the central module
@@ -54,6 +46,3 @@ Architecture/Class Specific Responsibilities:
 	above mentioned Objects. I left this as a module because really there was no need for it to be instantiated and because
 	it mostly stood on its own, providing methods to do work, but didn't have any data housing responsibilities.
 
-This concludes the README, if interested, please contact me as soon as possible to contintue the hiring process. I have several
-other interviews the week of 11/19/2018, but I have a special interest in Root due to the company culture and forward-thinking
-mindset.
